@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Wisdom';
+    src: url(../Fonts/Wisdom_Script_AJ.otf);
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+header, section {
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li {
+    margin-left: 40px;
+}
+
+.logo {
+    font-family: 'Wisdom';
+    font-size: 260%;
+    line-height: 41px;
+    color: #fed136;
+}
+.menu a {
+    color: #222;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    color: #fed136;
+}
+.services {
+    padding: 80px 0 120px;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+}
+.services-list {
+    display: flex;
+    list-style: none;
+    padding: 75px 0;
+}
+.services-list img {
+    width: 40px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.services-list li {
+    padding: 0 25px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 15px;
+}
+.services-list p {
+    font-size: 14px;
+    color: #777;
+}
+footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+}
